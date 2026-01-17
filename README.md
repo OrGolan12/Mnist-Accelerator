@@ -24,6 +24,13 @@ The design follows a modular streaming architecture composed of the following co
 * **MAC Unit:** The core computational engine that performs multiplication and accumulation for each pixel-weight pair.
 * **Argmax Logic:** Combinational comparator logic that determines the winning digit class.
 
+### Neuron Block Diagram
+<img width="657" height="454" alt="Screenshot 2026-01-17 at 14 36 30" src="https://github.com/user-attachments/assets/9e5f9564-feca-46e1-affa-4b057856ea71" />
+
+### Layer Block Diagram
+<img width="1056" height="809" alt="Screenshot 2026-01-17 at 14 37 04" src="https://github.com/user-attachments/assets/4e04ae81-545b-4b62-8c7f-04427fba3535" />
+
+
 ### Results
 The implementation has been verified for both accuracy and computational correctness:
 * **Verification:** Achieved a **100% match** between hardware calculation results and the Python-based Golden Reference.
